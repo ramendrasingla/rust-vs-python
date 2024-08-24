@@ -1,0 +1,28 @@
+# Rust build artifacts
+target/
+
+# Rust-specific files
+Cargo.lock
+
+# Environment-specific files
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dmg
+
+# Rust benchmarks
+bench/
+
+# Cargo workspace-specific files
+cargo-web/
